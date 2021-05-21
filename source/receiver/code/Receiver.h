@@ -27,8 +27,10 @@
 
 
 #ifdef SERIAL_DEBUG
-#define UART_TX_PIN             19
-#define UART_RX_PIN             18
+//#define UART_TX_PIN             18
+//#define UART_RX_PIN             19
+#define UART_TX_PIN             15
+#define UART_RX_PIN             16
 #define Log(...) printf(__VA_ARGS__)
 extern void Uart_Init(void);
 #else

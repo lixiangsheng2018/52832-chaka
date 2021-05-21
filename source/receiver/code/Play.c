@@ -8,7 +8,6 @@ static signed short PlayState = 0;
 #define PLAY_BITS    8
 #define PLAY_MASK    ((1<<PLAY_BITS)-1)
 
-
 void TIMER1_IRQHandler(void){
 
     signed short * p = (signed short *)(ReceiverSC.PlayBufPointer);

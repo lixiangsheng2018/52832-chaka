@@ -164,15 +164,18 @@ int rxFrameProcess(unsigned char* in, signed short * out)
             (frameStat[statFId].error == true && frameStat[statFId].rssi > 72) ||
             frameStat[statFId].quiet )
         {
-            uint16_t i;
+            /*uint16_t i;
             for ( i = IMA_ADPCM_PCM_RAW_LEN; i>0; i--){
                 out[i-1] = 0;
-            }
+            }*/
+            ReceiverSC.PlayVol = 0.0f;
             if (frameStat[statFId].rssi >72){
                 Log("RSSI:%d.\n", NRF_RADIO->RSSISAMPLE);
             }else if (frameStat[statFId].quiet == 0){
                 Log("High error ratio:%d/%d.\n", errFrames, cntFrames);
             }
+        } else {
+            ReceiverSC.PlayVol = 2.0f;
         }
 
         lastRxFramesId.id = pInFrame->id;

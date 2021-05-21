@@ -1746,27 +1746,27 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   Object Name
 
-        94          8          0          0          0      32998   app_error.o
-       148          0          0          0          0       4782   app_fifo.o
-       506         68         32          7         32      12162   app_uart_fifo.o
+        94          8          0          0          0      32990   app_error.o
+       148          0          0          0          0       4758   app_fifo.o
+       506         68         32          7         32      12138   app_uart_fifo.o
         64         26       1024          0      16384        924   arm_startup_nrf52.o
-        76          6          0          0          0        911   flash.o
-       220         12        420          0          0       1761   ima_adpcm.o
+        76          6          0          0          0        903   flash.o
+       220         12        420          0          0       1757   ima_adpcm.o
        104         12          0          0          0      31143   nrf_drv_common.o
       2512        178         32          0         32      41115   nrf_drv_uart.o
-       952        106          0          8          0      69137   play.o
-       140         12          0          1         40       2343   queue.o
-      2532        358          0          0      20844      11874   receiver.o
-        16          0          0          8          0       2718   retarget.o
-       906        114          0          1          0       5010   rf.o
-       948        106          0         10        128       4469   rtransfer.o
-       928         98          0          4          0       5919   system_nrf52.o
-       642        128          0          8          0      34851   systemtick.o
-         0          0      98956          0          0       1485   tipsaudio.o
-       148         24         12          1        256       5908   uart.o
+       952        106          0          8          0      69101   play.o
+       140         12          0          1         40       2335   queue.o
+      2532        358          0          0      20844      11826   receiver.o
+        16          0          0          8          0       2706   retarget.o
+       906        114          0          1          0       4982   rf.o
+       948        106          0         10        128       4465   rtransfer.o
+       928         98          0          4          0       5879   system_nrf52.o
+       642        128          0          8          0      34827   systemtick.o
+         0          0      98956          0          0       1481   tipsaudio.o
+       148         24         12          1        256       5896   uart.o
 
     ----------------------------------------------------------------------
-     10944       1256     100508         52      37716     269510   Object Totals
+     10944       1256     100508         52      37716     269226   Object Totals
          0          0         32          0          0          0   (incl. Generated)
          8          0          0          4          0          0   (incl. Padding)
 
@@ -1858,8 +1858,8 @@ Image component sizes
 
       Code (inc. data)   RO Data    RW Data    ZI Data      Debug   
 
-     14572       1408     100568         52      37812     261290   Grand Totals
-     14572       1408     100568         52      37812     261290   ELF Image Totals
+     14572       1408     100568         52      37812     261006   Grand Totals
+     14572       1408     100568         52      37812     261006   ELF Image Totals
      14572       1408     100568         52          0          0   ROM Totals
 
 ==============================================================================
