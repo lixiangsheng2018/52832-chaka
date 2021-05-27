@@ -246,8 +246,8 @@
 #define UART_TX_PIN              17 
 #define UART_RX_PIN              18
 #elif ( HARD_BOARD == BOARD_6 )
-#define UART_TX_PIN              19 
-#define UART_RX_PIN              18
+#define UART_TX_PIN              18 
+#define UART_RX_PIN              19
 #else
 //For debug
 #define UART_TX_PIN              15 
